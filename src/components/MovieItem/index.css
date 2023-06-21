@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.thumbnail-img {
+  width: 270px;
+  height: 200px;
+}
+.slider-container {
+  display: flex;
+  justify-content: flex-start;
+  padding: 30px;
+
+  width: 400px;
+}
+.slick-prev {
+  left: 2% !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 2% !important;
+  z-index: 1;
+}
+.thumbanil-btn {
+  background: transparent;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+}
+.modal-display-container {
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+}
+.video-player {
+  width: 300px;
+}
+.icon-img {
+  width: 20px;
+  height: 40px;
+}
+
+.close-button {
+  background: transparent;
+  border-style: none;
+  align-self: flex-end;
+  outline: none;
+  cursor: pointer;
+}
